@@ -21,7 +21,26 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 	$senha seria a senha definida para efetuar a conexão com o banco;
 	$dbname seria o nome do banco de dados que a conexão irá ocorrer;
 
-2) Como instalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
+2) Como conectar ao meu banco usado no projeto.
+
+Abra o MSQL WorckBench e adicione uma nova MySQL Connections clicando no +
+
+	Adicione o nome desejado em "Connection name: poke"
+	Connection Method deixar o padrão: Standard (TCP/IP)
+	Nos parameters{
+	Hostname: jupiter.servidordedns.info
+	Port: 3306
+	Username: poke
+	Password: clicar em Store in Vault e insirir a senha sem aspas "Ok1y6_q6"
+	
+	Clicar em Test Connection, digitar a senha novamente e clique em Ok.
+	Basta clicar OK novamente
+	
+	Clique duas vezes em cima da Connection criada.
+	
+	Pronto, servidor acessado com sucesso.
+
+3) Como instalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
 
 1° Criação de um bando de dados com o nome poke;
 
