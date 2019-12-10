@@ -2,6 +2,8 @@
 Repository para alocar os arquivos do Programa Aeogi 
 Bem vindo a pokedex do Ash.
 
+Para entrar no site da Host https://files.000webhost.com/ Website Name: "pokeviwer" Password: "74LqMiLUfEcwKWRlfH#c"
+
 O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: http://pokeviwer.site/
 
 Existe dois arquivos essenciais para o funcionamento do programa que são: Index.php e Pesquisar.php
