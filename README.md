@@ -22,12 +22,17 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 	$dbname seria o nome do banco de dados que a conexão irá ocorrer;
 
 2) Como isntalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
+
 1° Criação de um bando de dados com o nome poke;
+
 2° Criação de uma tabela com o nome poke;
 
 	CREATE TABLE `poke`.`poke` (
+	
 	`pokedex_number` INT(3) UNSIGNED ZEROFILL NOT NULL,
+	
   	`name` VARCHAR(45) NULL DEFAULT NULL,
+	
  	`attack` VARCHAR(45) NULL DEFAULT NULL,
  	`classfication` VARCHAR(45) NULL DEFAULT NULL,
   	`defense` VARCHAR(45) NULL DEFAULT NULL,
