@@ -26,8 +26,8 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 2° Criação de uma tabela com o nome poke;
 
 	CREATE TABLE `poke`.`poke` (
-	 `pokedex_number` INT(3) UNSIGNED ZEROFILL NOT NULL,
-  	 `name` VARCHAR(45) NULL DEFAULT NULL,
+	`pokedex_number` INT(3) UNSIGNED ZEROFILL NOT NULL,
+  	`name` VARCHAR(45) NULL DEFAULT NULL,
  	`attack` VARCHAR(45) NULL DEFAULT NULL,
  	`classfication` VARCHAR(45) NULL DEFAULT NULL,
   	`defense` VARCHAR(45) NULL DEFAULT NULL,
@@ -43,5 +43,7 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
   	UNIQUE INDEX `pokedex_number_UNIQUE` (`pokedex_number` ASC))
 	ENGINE = InnoDB
 	DEFAULT CHARACTER SET = utf8;
+	
+ok	
 
 
