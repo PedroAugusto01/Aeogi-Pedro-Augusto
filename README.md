@@ -4,11 +4,11 @@ Bem vindo a pokedex do Ashe.
 
 O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: https://pokeviwer.000webhostapp.com/
 
-Existe dois arquivos essenciais para o funcionamento do programa que são: Index e Pesquisar
-Index é o arquivo inicial onde possui o mecanismo de busca ao banco e um link para uma planilha para ajuda.
+Existe dois arquivos essenciais para o funcionamento do programa que são: Index.php e Pesquisar.php
+Index é o arquivo inicial aonde possui o mecanismo de busca ao banco e um link para uma planilha para ajuda.
 Pesquisar é o arquivo aonde acontece toda a lógica da programação, desde a conexão ao banco de dados, a leitura dos dados digitados e a busca deles na tabela.
-O instancia de banco de dados usado e a MySQL. Caso queira rodar o programa em seu computador basta fazer alterações mínimas no código para o funcionamento.
-Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome “pesquisar” e fazer as alterações nos seguintes campos.
+A instância de banco de dados utilizado e o MySQL. Caso queira rodar o programa em seu computador basta fazer alterações mínimas no código para o funcionamento.
+Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome “pesquisar.php” e fazer as alterações nos seguintes campos.
 	
  	$servidor = "jupiter.servidordedns.info";
   	$usuario = "poke";
@@ -24,6 +24,8 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 2) Como isntalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
 
 1° Criação de um bando de dados com o nome poke;
+
+	CREATE SCHEMA `poke` ;
 
 2° Criação de uma tabela com o nome poke;
 
@@ -43,11 +45,16 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
   	`weight_kg` VARCHAR(45) NULL DEFAULT NULL,
   	`generation` VARCHAR(45) NULL DEFAULT NULL,
   	`is_legendary` VARCHAR(45) NULL DEFAULT NULL,
+	`abilities` VARCHAR(45) NULL DEFAULT NULL,
   	PRIMARY KEY (`pokedex_number`),
   	UNIQUE INDEX `pokedex_number_UNIQUE` (`pokedex_number` ASC))
 	ENGINE = InnoDB
 	DEFAULT CHARACTER SET = utf8;
 	
-ok	
+Para fazer a importação do CSV para o banco de dados, basta baixar neste link: https://gofile.io/?c=w5Sd6S , em seguida no MSQL WorckBench, vá até a tabela, clique com o botão direito e selecione "Table data import wizzard", selecione o arquivo CSV em seu computador e basta iniciar procedimento.
+
+Após ter implantado a tabela no banco de dados basta executar o arquivo "Index.php" e usar o programa.
+	
+	
 
 
