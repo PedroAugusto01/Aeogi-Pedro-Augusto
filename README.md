@@ -18,6 +18,9 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 	$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
 $servidor séria aonde a conexão com o banco será feita, caso seja outro servidor ou localhost basta fazer a alteração;
+
 $usuario seria o usuário padrão para efetuar a conexão com o banco de dados, por padrão ele vem como “root”;
+
 $senha seria a senha definida para efetuar a conexão com o banco;
+
 $dbname seria o nome do banco de dados que a conexão irá ocorrer;
