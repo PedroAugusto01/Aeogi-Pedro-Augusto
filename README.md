@@ -1,6 +1,6 @@
 # Aeogi
 Repository para alocar os arquivos do Programa Aeogi 
-Bem vindo a pokedex do Ashe.
+Bem vindo a pokedex do Ash.
 
 O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: http://pokeviwer.site/
 
