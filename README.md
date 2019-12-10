@@ -24,3 +24,6 @@ $usuario seria o usuário padrão para efetuar a conexão com o banco de dados, 
 $senha seria a senha definida para efetuar a conexão com o banco;
 
 $dbname seria o nome do banco de dados que a conexão irá ocorrer;
+
+Como isntalar o banco de dados, Sugiro utilizar o "MSQL WorckBench"
+
