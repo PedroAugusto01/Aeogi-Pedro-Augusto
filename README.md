@@ -21,7 +21,7 @@ Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome 
 	$senha seria a senha definida para efetuar a conexão com o banco;
 	$dbname seria o nome do banco de dados que a conexão irá ocorrer;
 
-2) Como isntalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
+2) Como instalar o banco de dados, Sugiro utilizar o "MSQL WorckBench".
 
 1° Criação de um bando de dados com o nome poke;
 
