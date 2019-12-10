@@ -2,7 +2,7 @@
 Repository para alocar os arquivos do Programa Aeogi 
 Bem vindo a pokedex do Ashe.
 
-O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: https://pokeviwer.000webhostapp.com/
+O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: http://pokeviwer.site/
 
 Existe dois arquivos essenciais para o funcionamento do programa que são: Index.php e Pesquisar.php
 Index é o arquivo inicial aonde possui o mecanismo de busca ao banco e um link para uma planilha para ajuda.
