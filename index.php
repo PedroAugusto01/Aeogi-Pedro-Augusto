@@ -1,9 +1,12 @@
 <center>
-<h1>Pesquisar Pokemon</h1>
+<div style="border: 3px solid black"><h1>Pesquisar Pokémon</h1></div>
+<p></p>
 <form method="POST" action="pesquisar.php">
-	Pesquisar:<input type="text" name="pesquisar" placeholder="PESQUISAR">
+	Pesquisar: <input type="text" name="pesquisar" placeholder="PESQUISAR">
 	<input type="submit" value="ENVIAR">
-	<h1>Caso tenha dúvidas, clique no botão a baixo para efetuar um download de uma planilha com os códigos e os nomes dos pokemons.</h1>
+	<p></p>
+	<div style="border: 3px solid black">Caso tenha dúvidas, clique no botão a baixo para efetuar um download de uma planilha com os códigos e os nomes dos pokémons.</div>
+	<p></p>
 	<button type="submit" formaction="https://gofile.io/?c=a6lnSP">Download</button>
 	</center>
 </form>
