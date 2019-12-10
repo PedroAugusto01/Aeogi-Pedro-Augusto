@@ -27,7 +27,7 @@ Abra o MSQL WorckBench e adicione uma nova MySQL Connections clicando no +
 
 	Adicione o nome desejado em "Connection name: poke"
 	Connection Method deixar o padrão: Standard (TCP/IP)
-	Nos parameters{
+	Nos parameters:
 	Hostname: jupiter.servidordedns.info
 	Port: 3306
 	Username: poke
