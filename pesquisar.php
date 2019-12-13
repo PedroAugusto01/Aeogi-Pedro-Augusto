@@ -61,7 +61,7 @@ table, th, td {
 	$result_type1 = "SELECT * FROM type1 WHERE defense LIKE '%$pesquisar%' LIMIT 1";
 	$resultado_type1 = mysqli_query($conn, $result_type1);
 
-	//Pesquisa com o select e condição para buscar o tipo 2 desejado (referente ao codigo ou nome pesquisado)	
+	//Pesquisa com o select e condição para buscar o tipo 2 desejado (referente ao codigo ou nome pesquisado)
 	$pesquisar = $_POST['pesquisar'];
 	$result_type2 = "SELECT * FROM type2 WHERE defense LIKE '%$pesquisar%' LIMIT 1";
 	$resultado_type2 = mysqli_query($conn, $result_type2);
@@ -195,9 +195,9 @@ table, th, td {
 	    </table>
 	    
 	    <table>
-	        <th>E lendário? (1 Sim, 0 Não):
+	        <th>E lendário?:
 	        <?php
-	    echo $rows_cursos['is_legendary']."<br>";
+	    echo ($rows_cursos['is_legendary'] == 1 ? ' Sim' : ' Não' ) . "<br>";
 	    ?>
 	    </th>
 	    </table>
@@ -321,9 +321,9 @@ table, th, td {
 	    </table>
 	    
 	    <table>
-	        <th>E lendário? (1 Sim, 0 Não):
+	        <th>E lendário?:
 	        <?php
-	    echo $rows_cursos['is_legendary']."<br>";
+	    echo ($rows_cursos['is_legendary'] == 1 ? ' Sim' : ' Não' ) . "<br>";
 	    ?>
 	    </th>
 	    </table>
@@ -342,5 +342,8 @@ table, th, td {
 	}
 	
 ?>
+<form method="POST" action="index.php">
+	<input type="submit" value="Voltar">
+	<p></p></form>
 </center>
 </body>
