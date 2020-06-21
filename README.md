@@ -2,8 +2,6 @@
 Repository para alocar os arquivos do Programa Aeogi 
 Bem vindo a pokedex do Ash.
 
-Para entrar no gerenciador de arquivos da host https://files.000webhost.com/ Website Name: "pokeviwer" Password: "74LqMiLUfEcwKWRlfH#c"
-
 O programa a seguir foi feito em linguagem PHP, o acesso para o seu funcionamento é: http://pokeviwer.site/
 
 Existe dois arquivos essenciais para o funcionamento do programa que são: Index.php e Pesquisar.php
@@ -11,10 +9,7 @@ Index é o arquivo inicial aonde possui o mecanismo de busca ao banco e um link 
 Pesquisar é o arquivo aonde acontece toda a lógica da programação, desde a conexão ao banco de dados, a leitura dos dados digitados e a busca deles na tabela.
 A instância de banco de dados utilizado e o MySQL. Caso queira rodar o programa em seu computador basta fazer alterações mínimas no código para o funcionamento.
 Para alterar o funcionamento do banco de dados basta abrir o arquivo com o nome “pesquisar.php” e fazer as alterações nos seguintes campos.
-	
- 	$servidor = "jupiter.servidordedns.info";
   	$usuario = "poke";
-	$senha = "Ok1y6_q6";
 	$dbname = "poke";
 	$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
